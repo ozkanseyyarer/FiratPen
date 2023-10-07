@@ -1,0 +1,23 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Alt katman: Gradient arka plan -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="radial"
+                android:centerX="50%"
+                android:centerY="50%"
+                android:startColor="#FFEE58"
+                android:endColor="#FFC107"
+                android:gradientRadius="200dp" />
+        </shape>
+    </item>
+    <!-- Üst katman: Soluk Desen -->
+    <item >
+        <bitmap
+            android:src="@drawable/arkaplan"
+            />
+    </item>
+
+
+
+</layer-list>
